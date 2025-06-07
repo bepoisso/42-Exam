@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ASpell.cpp                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bepoisso <bepoisso@student.42perpignan.    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/07 19:21:15 by bepoisso          #+#    #+#             */
+/*   Updated: 2025/06/07 19:21:16 by bepoisso         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ASpell.hpp"
 
 ASpell::ASpell(std::string newName, std::string newEffects) : _name(newName), _effects(newEffects) {
